@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-flow:row wrap;
+  justify-content: center;
+}
+
+.left {
+  background-color: white;
+  margin-top: 100px;
+  padding-right: 30px;
+}
+
+.right {
+  background-color: white;
+  margin-top: 50px;
+  border: solid grey;
+}
+
+.top {
+  background-color: white;
+}
+
+.introtext {
+  font-size: 16px;
+  text-align: center;
+}
+
+.fblog {
+  display: flex;
+  justify-content: center;
+}
+
+.facebooklogin {
+  display: flex;
+  width: 150px;
+  background-color: #3897f0;
+  justify-content: center;
+}
+
+.dividertext {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signButt {
+  background-color: #3897f0;
+  height: 30px;
+}
+
+.SignUp {
+  text-align: center;
+}
+
+.bottom {
+  border: solid grey;
+  margin-top: 100px
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.footerlinks {
+    color: black;
+  max-width: 75%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
